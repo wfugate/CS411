@@ -1,0 +1,38 @@
+Written Portion Solutions: 
+•	Theme: Get GiggleGit demo into a stable enough alpha to start onboarding some adventurous clients
+•	Epic: Onboarding experience 
+Complete the following tasks:
+1.	Complete these user stories:
+o	As a vanilla git power-user that has never seen GiggleGit before, I want to have access to a help tool that makes the transition from other version control software to GiggleGit smooth, focusing the workflow.
+o	As a team lead onboarding an experienced GiggleGit user, I want to easily migrate my team’s favorite repositories along with the project’s settings and permissions onto GiggleGit.
+2.	Create a third user story, one task for this user story, and two associated tickets.
+o	Tasks should be a single phrase. (As should themes and epics. See those provided.)
+o	User stories should be one to three sentences. 
+o	Tickets should have a title consisting of a single phrase and details that are long enough to sufficiently describe what needs to be done. You do not need to assign points to the tickets
+o	User Story: I want to be able to experiment with changes in my project without affecting its main deployment.
+o	Task: Create a branch and merge system
+o	Ticket #1: Develop a meme-managed merge system
+1.	Create a merge software that takes two versions of code and uses a meme library to guide developers into resolving merge conflicts.
+o	Ticket #2: Develop a branch system
+1.	Create a branch functionality such that developers may branch off of their project and make changes without affecting deployment.
+3.	This is not a user story. Why not? What is it?
+o	As a user I want to be able to authenticate on a new machine 
+o	This is not a user story because it is a functional requirement. It focuses on a very specific functionality within the software.
+
+
+
+Goal: Increase developer productivity by refining the diff tool testing experience.
+Non-Goal: Redesign the version control system of GiggleGit
+Non-functional Requirements:
+1.	Permissions and access control
+There must be different levels of access control assigned to PMs and Developers. 
+2.	Maintenance of snickers
+There must be a system for maintaining and managing snickering concepts
+Functional Requirements for 1:
+Users with the PM role must have the ability to edit, delete, create, and access snickering concepts along with assigning them.
+Users with the Developer role must have the ability to sync their changes but not manage snickering concepts.
+Functional Requirements for 2:
+A database that allows for the easy maintenance and management of snickering concepts.
+An algorithm for snickering concept selection that will select relevant snickering concepts based on inputs.
+
+
